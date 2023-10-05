@@ -67,7 +67,7 @@ function App() {
       <Row className="justify-content-center">
         <Col md={10} lg={8} xl={6} className="my-5">
           <h1 className="text-center mb-3">To Do App</h1>
-          <NewTask newTaskHandler={newTaskHandler} /> d
+          <NewTask newTaskHandler={newTaskHandler} />
           <Tasks
             tasks={filteredTasks}
             deleteHandler={deleteHandler}
